@@ -3,13 +3,15 @@
 #include <list> 
 #include <algorithm>
 #include "mitra.h" 
+#include "Edit.cpp"
 #include <string>
+
 
 
 int main(int argc, char** argv)
 {
 	int numberOfRealms; 
-	std::string charm; 
+	std::string charm;
 	int magiCount; 
 	std::string magiOrder; 
 	int numberOfCharms = 1; //the charm can change, but only one can exist at a time. 
@@ -36,8 +38,10 @@ int main(int argc, char** argv)
 	/*joe or bradon?*/
 	//that sequence indicated how many changes you can make the Charm Name
 
-	/*working on this*/
-	//function for Edit distance between one realm and all the others -- Do this for all realms
+	
+    /*NOTE Reference EDIT DISTANCE in EDIT.CPP */
+    
+
 
 		return 0; 
 }

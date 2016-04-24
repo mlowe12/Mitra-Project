@@ -9,6 +9,7 @@
 class Node
 {
 	public:
+    
 		std::string charm; 
 		Node* travelPath; 
 		int magiCounts; 
@@ -31,8 +32,10 @@ class Node
 		{
 			charm = s; 
 			magiCounts = c; 
+
 			/*flipped assignment of orderofMagi and arr because of incompatible integer types*/ 
 			arr = orderOfMagi;   //recieved array  will inherit orderOfMagi as passed input
+
 			travelPath = p; 
 		} 
 
